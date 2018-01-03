@@ -1,0 +1,125 @@
+@import url('../assets/ionicons-2.0.1/css/ionicons.min.css');
+@import url('media-queries.css');
+@font-face {
+    font-family: 'ion-icons';
+    src: url('../assets/ionicons-2.0.1/fonts/ionicons.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Digit';
+    src: url('../fonts/Digit.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+body {
+    background-color: #d4d4d4;
+    font-family: arial;
+}
+
+.calculator {
+    max-width: 350px;
+    min-width: 300px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #000;
+    height: 25px;
+}
+
+.display {
+    background-color: #7aab8b;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 1em 0.7em 0.5em 0.5em;
+    min-height: 190px;
+}
+
+
+.display p {
+    font-family: 'Digit';
+    line-height: 0px;
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    text-shadow: 1px 1px #577863;
+}
+
+.display hr {
+    border-color: #000;
+    width: 55%;
+    margin-bottom: 1em;
+    position: relative;
+    right: -25%;
+    display: none;
+}
+
+.numpad {
+    background-color: #5a5d70;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.btn {
+    height: 2em;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: calc(25% - 10px);
+    margin: 5px;
+    float: right;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto-Bold';
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    transition: all ease-in-out 300ms;
+    -webkit-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7accc8;
+}
+
+.ion-backspace {
+    font-size: 1.2em;
+}
+
+.btn,
+.btn:active,
+.btn:focus {
+    outline: 0;
+}
+
+.btn-light {
+    background-color: #8b8d9c;
+}
+
+.btn-dark {
+    background-color: #2b2a30;
+}
+
+.btn-red {
+    background-color: #c33744;
+}
+
+.btn-red:before {
+    font-family: "ion-icons";
+    content: "\f3bf";
+}
+
+.btn-wide {
+    width: calc(50% - 10px);
+}
+
+.btn-high {
+    height: 4.3em
+}

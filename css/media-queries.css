@@ -1,0 +1,15 @@
+/*Iphone 5s portrait mode*/
+@media screen and (max-width: 320px) {
+    .btn {
+        font-size: 1.5em !important;
+        
+    }
+
+    .ion-backspace {
+
+        font-size: 1.2em !important;
+        
+    }
+
+    
+}
